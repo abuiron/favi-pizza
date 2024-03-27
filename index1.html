@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favi Pizza</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="head-content">
+        <header>
+            <div class="logo">
+                <img src="images/favi logo 2.png" class="logo-png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <div class="sear">
+                    <img src="images/searchw.png" class="sarc" alt="">
+                    <input class="sea" type="text">
+                 </div>
+                 <div class="user">
+                    <img src="images/user.png" alt="" class="use">
+                 </div>
+            </nav> 
+         </header>
+         </div>
+         <section id="Home">
+            <div class="home-content">
+                <h4 class="homw-welcome">Welcome..!</h4>
+                <h1 class="home-title">FAVI PIZZA</h1>
+                <p class="home-para">"Crafting Delicious Memories, One Slice at a Time.<br>
+                    Indulge in Excellence with Favi Pizza."</p>
+                <div class="home-btn">
+                <button class="btn-contact"><span></span><a href="#Contact">Contact now</a></button>
+                <button class="btn-menu"><span></span><a href="#Menu">Our Menu</a></button>
+                </div>
+                <div class="home-img">
+                    <img src="images/bg_1.png" class="home-img1">
+                </div>
+            </div>
+
+         </section>
+
+         <!-- Welcome section -->
+         <section id="Welcome">
+            <div class="welcome-content">
+                <h1>Welcome to Our Restaurant</h1>
+                <p>Here at Favi Pizza, we are passionate about serving you the best culinary experience. With our delicious menu options, warm hospitality, and inviting atmosphere, we aim to create memorable dining moments for you and your loved ones.</p>
+        <p>Our chefs meticulously craft each dish using the finest ingredients, ensuring exceptional taste and quality in every bite. Whether you're craving classic Italian pizzas, savory pasta dishes, or indulgent desserts, our diverse menu has something to delight every palate.</p>
+        <p>At Favi Pizza, we believe in more than just food; we believe in creating connections and fostering community. Our cozy ambiance and friendly staff provide the perfect backdrop for gathering with friends and family, celebrating special occasions, or simply enjoying a casual meal together.</p>
+        <p>Come experience the essence of Italian cuisine and hospitality at Favi Pizza. Join us for a culinary journey filled with flavors, laughter, and unforgettable moments. We look forward to welcoming you to our restaurant!</p>
+            </div>
+        </section>
+
+         <!--Service section-->
+         <section id="Service">
+            <div class="service-content">
+                <h1 class="service-heading">Our Services</h1>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="images/fst_del.png" alt="Fastest Delivery">
+                    </div>
+                    <div class="service-details">
+                        <h2>Fastest Delivery</h2>
+                        <p>"At Favi Pizza, we pride ourselves on our lightning-fast delivery service. We understand that hunger waits for no one, so we ensure your order reaches you promptly, piping hot and ready to enjoy."</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="images/vegetables.png" alt="Healthy Food">
+                    </div>
+                    <div class="service-details">
+                        <h2>Healthy Food</h2>
+                        <p>"Indulge guilt-free with our selection of healthy and nutritious food options. From fresh salads bursting with vibrant flavors to wholesome whole-grain pizzas, we prioritize quality ingredients to satisfy both your taste buds and your well-being."</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="images/premium.png" alt="Premium Quality">
+                    </div>
+                    <div class="service-details">
+                        <h2>Premium Quality</h2>
+                        <p>"Experience excellence with every bite at Favi Pizza. We source only the finest ingredients and handcraft each pizza with meticulous attention to detail. From artisanal dough to premium toppings, our commitment to quality ensures a truly exceptional dining experience."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Menu section-->
+        <section id="Menu">
+            <h1 class="menu-title">OUR MENU</h1>
+            <div class="menu-content">
+                <div class="menu-item">
+                    <div class="item-pic">
+                    <img src="images/pizza-1.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name-">Italian Pizza</h3>
+                        <p class="item-description">Indulge in the flavors of Greece with our Greek Pizza. Featuring tangy feta cheese, Kalamata olives, and zesty tomato sauce, it's a Mediterranean delight. Experience a taste of the Aegean in every bite.</p>
+                        <p class="item-rate">$2.50</p>
+                        <button class="item-order">Order</button>
+                        <buttton class="delete-item" onclick="deleteitem(event)"><i class="fa-brands fa-trash"></i></buttton>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-pic">
+                    <img src="images/pizza-2.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name-">Greek Pizza</h3>
+                        <p class="item-description">Savor the essence of Italy with our authentic Italian Pizza. Crafted with traditional ingredients like San Marzano tomatoes, creamy mozzarella, and aromatic basil, it's a slice of Italy in every bite. </p>
+                        <p class="item-rate">$2.90</p>
+                        <button class="item-order">Order</button>
+                        <buttton class="delete-item" onclick="deleteitem(event)"><i class="fa-brands fa-trash"></i></buttton>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-pic">
+                    <img src="images/pizza-3.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name-">Caucasian Pizza</h3>
+                        <p class="item-description">Indulge in the rich flavors of the Caucasus region with our Caucasian Pizza. Topped with a delectable blend of lamb sausage, tangy feta cheese, and earthy herbs, it's a culinary journey through the Caucasus Mountains. </p>
+                        <p class="item-rate">$2.30</p>
+                        <button class="item-order">Order</button>
+                        <buttton class="delete-item" onclick="deleteitem(event)"><i class="fa-brands fa-trash"></i></buttton>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-pic">
+                    <img src="images/pizza-4.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name-">American Pizza</h3>
+                        <p class="item-description">Savor the classic taste of America with our American Pizza. Featuring a generous layer of gooey melted cheese, savory pepperoni slices, and tangy tomato sauce, it's a timeless favorite for pizza enthusiasts.</p>
+                        <p class="item-rate">$2.80</p>
+                        <button class="item-order">Order</button>
+                        <buttton class="delete-item" onclick="deleteitem(event)"><i class="fa-brands fa-trash"></i></buttton>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-pic">
+                    <img src="images/pizza-5.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name-">Tomatoe Pizza</h3>
+                        <p class="item-description">Indulge in the simplicity of our Tomato Pizza, where each bite bursts with the vibrant flavors of ripe tomatoes. Topped with fresh tomato slices, fragrant basil leaves, and a drizzle of olive oil, it's a delightful vegetarian option</p>
+                        <p class="item-rate">$2.50</p>
+                        <button class="item-order">Order</button>
+                        <buttton class="delete-item" onclick="deleteitem(event)"><i class="fa-brands fa-trash"></i></buttton>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-pic">
+                    <img src="images/pizza-6.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name-">Margherita Pizza</h3>
+                        <p class="item-description">Savor the classic taste of Italy with our Margherita Pizza. Made with freshly sliced tomatoes, creamy mozzarella cheese, and aromatic basil leaves, each bite is a symphony of flavors. </p>
+                        <p class="item-rate">$3.50</p>
+                        <button class="item-order">Order</button>
+                        <buttton class="delete-item" onclick="deleteitem(event)"><i class="fa-brands fa-trash"></i></buttton>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-pic">
+                    <img src="images/pizza-7.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name-">Ultimate overload Pizza</h3>
+                        <p class="item-description">Indulge in the ultimate pizza experience with our Ultimate Overload Pizza. Packed with a mouthwatering assortment of toppings, including savory pepperoni, juicy sausage, crispy bacon, fresh bell peppers, onions, mushrooms.</p>
+                        <p class="item-rate">$2.50</p>
+                        <button class="item-order">Order</button>
+                        <buttton class="delete-item" onclick="deleteitem(event)"><i class="fa-brands fa-trash"></i></buttton>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-pic">
+                    <img src="images/pizza-8.jpg" alt="">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-name-">Bacon Pizza</h3>
+                        <p class="item-description">Savor the irresistible flavor of our Bacon Pizza. Made with crispy, smoky bacon slices atop a bed of rich tomato sauce and melted mozzarella cheese, this pizza offers a deliciously savory and indulgent taste experience.</p>
+                        <p class="item-rate">$2.50</p>
+                        <button class="item-order">Order</button>
+                        <buttton class="delete-item" onclick="deleteitem(event)"><i class="fa-brands fa-trash"></i></buttton>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-box">
+                <h2>Add book</h2>
+                <form>
+                    <input type="text" placeholder=" item-name" id="item-name-input">
+                    <input type="text" placeholder="item-rate " id="item-rate-input">
+                    <textarea placeholder="item descrption" id="item-description-input" name="" id="" cols="30" rows="10"></textarea>
+                    <button id="add-item">ADD</button>
+                    <button id="cancel-item">CANCEL</button>
+                </form>
+            </div>
+            <button class="add-button" id="add-popup-buton">+</button>
+            <button class="edit" onclick="edit()">Edit</button>
+            <button class="hide">-</button>
+        </section>
+
+        <!--About section-->
+
+        <section id="About">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <div class="about-item">
+                    <div class="about-item-pic">
+                        <img src="images/about.jpg" alt="About Image 1">
+                    </div>
+                    <div class="about-item-details">
+                        <h3>Clean Environment</h3>
+                        <p>Embracing cleanliness as a cornerstone, we maintain a pristine setting where every corner exudes freshness and purity. Our commitment extends beyond mere tidiness; it's a testament to our dedication to providing a sanctuary free from clutter and distractions.</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="about-item-details">
+                        <h3>Community Engagement</h3>
+                        <p>Enriching the fabric of our community is not just a duty but a passion. Through partnerships, outreach programs, and grassroots initiatives, we foster a culture of collaboration and empowerment, ensuring that everyone has a voice and a stake in our shared success.</p>
+                    </div>
+                    <div class="about-item-pic">
+                        <img src="images/gallery-1.jpg" alt="About Image 2">
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="about-item-pic">
+                        <img src="images/gallery-2.jpg" alt="About Image 1">
+                    </div>
+                    <div class="about-item-details">
+                        <h3>Customer Experience</h3>
+                        <p>Elevating the art of hospitality, we curate experiences that transcend mere transactions. Each touchpoint is thoughtfully crafted to surprise and delight, leaving an indelible imprint of warmth, care, and personalized attention that resonates long after the visit.</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="about-item-details">
+                        <h3>Sustainable Practices</h3>
+                        <p>Our commitment to sustainability is more than a trend; it's a moral imperative. From sourcing locally to reducing waste and embracing renewable energy, every decision is guided by our unwavering dedication to preserving the planet for future generations.</p>
+                    </div>
+                    <div class="about-item-pic">
+                        <img src="images/gallery-3.jpg" alt="About Image 2">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--chef details-->
+
+        <section id="Chef">
+            <div class="chef-content">
+                <h2>Meet Our Chefs</h2>
+                <div class="chef-item">
+                    <div class="chef-item-pic">
+                        <img src="images/person_1.jpg" alt="Chef 1">
+                    </div>
+                    <div class="chef-item-details">
+                        <h3>Chef Name</h3>
+                        <p>Expert in Italian Cuisine</p>
+                        <p>With over 10 years of experience</p>
+                    </div>
+                </div>
+                <div class="chef-item">
+                    <div class="chef-item-pic">
+                        <img src="images/person_2.jpg" alt="Chef 2">
+                    </div>
+                    <div class="chef-item-details">
+                        <h3>Chef Name</h3>
+                        <p>Master of French Cuisine</p>
+                        <p>Known for exquisite desserts</p>
+                    </div>
+                </div>
+                <div class="chef-item">
+                    <div class="chef-item-pic">
+                        <img src="images/person_3.jpg" alt="Chef 3">
+                    </div>
+                    <div class="chef-item-details">
+                        <h3>Chef Name</h3>
+                        <p>Expertise in Asian Fusion</p>
+                        <p>Creates unique flavor combinations</p>
+                    </div>
+                </div>
+                <div class="chef-item">
+                    <div class="chef-item-pic">
+                        <img src="images/person_4.jpg" alt="Chef 4">
+                    </div>
+                    <div class="chef-item-details">
+                        <h3>Chef Name</h3>
+                        <p>Specializes in Mediterranean Cuisine</p>
+                        <p>Uses fresh, local ingredients</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--footer section-->
+
+        <footer id="Contact">
+            <div class="footer-column">
+                <div class="about-us">
+                <img src="images/favi logo 2.png" alt="">
+                <h2>FAVI PIZZA</h2>
+                <p>Welcome to FAVI PIZZA  Serving delicious meals since 2024. We take pride in providing exceptional dining experiences to our valued customers. With a focus on quality ingredients and impeccable service, we strive to exceed your expectations with every visit.</p>
+    <p>&copy; 2024 favipizza. All rights reserved. Trademarks and logos are the property of their respective owners.</p>
+    <p>&#169; 2024 favipizza. Trademark&reg;.</p>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="open-hours">
+                <h3>Opening Hours</h3>
+                <ul>
+                    <li>Monday    11:00-18:00</li>
+                    <li>Tuesday   11:00-18:00</li>
+                    <li>Wednesday 11:00-18:00</li>
+                    <li>Thursday  11:00-18:00</li>
+                    <li>Friday    11:00-18:00</li>
+                    <li>Saturday  11:00-18:00</li>
+                    <li>Sunday    11:00-18:00</li>
+                </ul>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-contact-us">
+                <h3>Contact Us</h3>
+                <form>
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <textarea name="message" placeholder="Tell us about your message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="follow-us">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                 </div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="legal">
+                <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#privacy-policy"><u>Privacy Policy</u></a><br><p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod ipsum vitae lorem dignissim, ut gravida urna sagittis.</p></p></li>
+                        <li><a href="#terms-conditions"><u>Terms and Conditions</u></a><br><p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod ipsum vitae lorem dignissim, ut gravida urna sagittis.</p></p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top-btn"></div>
+            <a href="#Home"><button id="back-to-top">↑</button></a>
+        </footer>
+        
+        
+        
+
+        <script src="script1.js"></script>
+</body>
+</html>
