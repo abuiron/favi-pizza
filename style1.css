@@ -114,6 +114,8 @@ nav ul li a:hover{
 .home-content
 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(images/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     font-weight: bold;
@@ -218,7 +220,7 @@ nav ul li a:hover{
 /*Welcome section */
 
 #Welcome {
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -249,7 +251,7 @@ nav ul li a:hover{
 /* section content */
 
 #Service {
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-image: url(images/sec_bg.png);
 }
@@ -258,7 +260,6 @@ nav ul li a:hover{
     padding: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .service-heading {
@@ -267,12 +268,26 @@ nav ul li a:hover{
     font-weight: bold;
     font-size: 36px;
     margin-bottom: 30px;
+    text-align: center;
+}
+.service-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 20px;
+    
 }
 
 .service-item {
     display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-wrap: nowrap;
     align-items: center;
     margin-bottom: 30px;
+    justify-content: center;
+    gap: 50px;
 }
 
 .service-icon {
@@ -327,7 +342,6 @@ nav ul li a:hover{
 #Menu{
     height: auto;
     width: 100%;
-    margin-top: 50px;
     background-image: linear-gradient(90deg, rgb(225, 225, 225),rgb(31, 31, 31)),linear-gradient(45deg, rgb(240, 101, 51) 0%, rgb(240, 101, 51) 33%,rgb(226, 102, 50) 33%, rgb(226, 102, 50) 53%,rgb(212, 103, 49) 53%, rgb(212, 103, 49) 60%,rgb(198, 104, 49) 60%, rgb(198, 104, 49) 73%,rgb(184, 105, 48) 73%, rgb(184, 105, 48) 85%,rgb(170, 106, 47) 85%, rgb(170, 106, 47) 100%),linear-gradient(135deg, rgb(240, 101, 51) 0%, rgb(240, 101, 51) 33%,rgb(226, 102, 50) 33%, rgb(226, 102, 50) 53%,rgb(212, 103, 49) 53%, rgb(212, 103, 49) 60%,rgb(198, 104, 49) 60%, rgb(198, 104, 49) 73%,rgb(184, 105, 48) 73%, rgb(184, 105, 48) 85%,rgb(170, 106, 47) 85%, rgb(170, 106, 47) 100%); background-blend-mode:overlay,overlay,normal;
     background-position: center;
     background-size: cover;
@@ -335,7 +349,7 @@ nav ul li a:hover{
 .menu-title{
     display:flex ;
     justify-content: center;
-    color: black;
+    color:#3f020c;
     font-size: 35px;
     position: relative;
     top: 30px;
@@ -446,15 +460,25 @@ nav ul li a:hover{
 }
 
 .edit{
-    background-color:#bf7e06;
-    color: black;
-     border-radius: 100%;
-     padding: 10px 10px;
-     font-size: 40px;
-     border: none;
+    background-color:#ffa600;
+    color: rgb(7, 7, 29);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     padding: 7px 7px;
+     font-size: 30px;
+     border: 4px solid #5c3d03;
+     border-radius: 15px;
+     box-shadow:black 0px 20px 20px 0px;
      position: sticky;
+     top: 30px;
      bottom: 30px;
      left: 100%;
+     transition: transform 1.5s ease;
+}
+.edit:hover{
+    transform: scale(1.1) rotate(360deg);
+    background-color: rgb(7, 7, 29);
+    color: #ffa600;
+    border: dotted;
 }
 
 .popup-box{
