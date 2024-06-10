@@ -55,4 +55,4 @@ Simply open the index.html file in your preferred web browser to view and intera
 
  If you have any questions or suggestions regarding this project, feel free to contact me at:
 
-  Email: mariganeshmr@gmail.com
+  Email: abuiron80@gmail.com
